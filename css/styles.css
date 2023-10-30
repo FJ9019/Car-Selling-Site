@@ -50,8 +50,41 @@ html {
     font-size: 1.5rem;
 }
 
+.out-box .inside-box,
+.col-1 span i {
+    color: var(--main-color);
+    padding-right: 0.5rem;
+    font-size: 1.3rem;
+}
+
 .out-box .inside-box .col-2 {
     display: flex;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 13rem;
+}
+
+.out-box .inside-box .col-2 a,
+.out-box .inside-box .col-2 span,
+.out-box .inside-box .col-2 .social i {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.4s;
+}
+
+.out-box .inside-box .col-2 .social {
+    display: flex;
+    gap: 0.9rem;
+}
+
+.out-box .inside-box,
+.col-1 a i {
+    padding-right: 0.5rem;
+}
+
+.out-box .inside-box .col-2 .social i:hover,
+.out-box .inside-box .col-2 a:hover {
+    color: var(--main-color);
 }
