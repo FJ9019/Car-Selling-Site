@@ -100,3 +100,140 @@ html {
         margin-right: 8rem;
     }
 }
+
+
+/*== Navbar Section Start ==*/
+.header {
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 9.5%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5), 
+    0 0 10px rgba(190, 190, 190, 0.5);
+    z-index: 111;
+    transition: 0.4s ease;
+}
+
+.header .logo {
+    width: 200px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav .navbar ul li {
+    padding: 2.5rem 0.5rem;
+}
+
+
+nav .navbar .navlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+}
+
+nav .navbar .navlink li a {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+    position: relative;
+}
+
+nav .others {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav .others i {
+    font-size: 1.9rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+nav .others .addBtn {
+    position: relative;
+    color: #fff;
+    background: var(--main-color);
+    padding: 1.5rem 1.7rem;
+    font-size: 1.6rem;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+nav .others .addBtn:hover {
+    background: var(--text-color);
+    color: #fff;
+}
+
+nav .others .addBtn i,
+nav .others .addBtn i:hover {
+    color: #fff;
+    padding-right: 0.5rem;
+}
+
+#menuBtn {
+    font-size: 3.5rem;
+}
+
+
+nav .navbar ul li:hover,
+nav .others i:hover {
+    color: var(--main-color);
+}
+
+nav .navbar ul li a:hover,
+nav .navbar ul li a.active {
+    color: var(--main-color);
+}
+
+nav .navbar ul li .drop-down {
+    position: absolute;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: justify;
+    width: 180px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5);
+    padding: 1rem 0 0;
+    display: none;
+}
+
+nav .navbar ul li:hover .drop-down {
+    display: flex;
+}
+
+nav .navbar ul li .drop-down li {
+    border-bottom: 1px solid rgba(190, 190, 190, 0.5);
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    z-index: 100;
+    overflow: hidden;
+} 
+
+nav .navbar ul li .drop-down li a {
+    font-size: 1.5rem;
+    transition: 0.4s ease;
+}
+
+nav .navbar ul li .drop-down li:hover a {
+    font-size: 1.6rem;
+    padding-left: 0.5rem;
+}

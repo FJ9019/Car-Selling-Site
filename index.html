@@ -54,25 +54,64 @@
             <img src="./img/logo/logo.png">
         </div>
 
-        <div class="navbar">
-            <div class="navlink">
-                <ul>
-                   <li><a href="#">Home</a></li>
+        <nav>
+            <div class="navbar">
+
+              <ul class="navlink">
+                   <li><a href="#" class="active">Home</a></li>
                    <li><a href="#">About</a></li>
-                   <li><a href="#">Inventory</a></li>
-                   <li><a href="#">Pages</a></li>
-                   <li><a href="#">Shop</a></li>
-                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Inventory<i class='bx bx-chevron-down'></i></a>
+                       <ul class="drop-down">
+                           <li><a href="#">Inventory Grid</a></li>
+                           <li><a href="#">Inventory List</a></li>
+                           <li><a href="#">Inventory Single</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="#">Pages<i class='bx bx-chevron-down'></i></a>
+                       <ul class="drop-down">
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Car Listing</a></li>
+                           <li><a href="#">Account</a></li>
+                           <li><a href="#">My Account</a></li>
+                           <li><a href="#">Authentication</a></li>
+                           <li><a href="#">Services</a></li>
+                           <li><a href="#">Dealer</a></li>
+                           <li><a href="#">Extra Pages</a></li>
+                           <li><a href="#">Our Team</a></li>
+                           <li><a href="#">Pricing Plan</a></li>
+                           <li><a href="#">Calculator</a></li>
+                           <li><a href="#">FAQ</a></li>
+                           <li><a href="#">Testimonials</a></li>
+                       </ul>
+                   
+                   </li>
+                   <li><a href="#">Shop<i class='bx bx-chevron-down'></i></a>
+                       <ul class="drop-down">
+                           <li><a href="#">Shop</a></li>
+                           <li><a href="#">Shop Casting</a></li>
+                           <li><a href="#">Shop Checkout</a></li>
+                           <li><a href="#">Shop Single</a></li>
+                       </ul>
+                
+                   </li>
+                   <li><a href="#">Blog<i class='bx bx-chevron-down'></i></a>
+                       <ul class="drop-down">
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#">Blog Single</a></li>
+                       </ul>
+                
+                   </li>
                    <li><a href="#">Contact</a></li>
-            </ul>
+              </ul>
             </div>
             <div class="others">
                 <i class='bx bx-search'></i>
                 <i class='bx bx-cart-download'></i>
                 <button class="addBtn"><i class='bx bx-plus-circle'></i>Add Listing</button>
-                <i class='bx bx-menu-alt-left'></i>
+                <i class='bx bx-menu-alt-left' id="menuBtn"></i>
             </div>
         </div>
+        </nav>
     </header>
     <!-- Navbar Section End -->
 
