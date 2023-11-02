@@ -237,3 +237,25 @@ nav .navbar ul li .drop-down li:hover a {
     font-size: 1.6rem;
     padding-left: 0.5rem;
 }
+
+.drop-down li .drop-down-two {
+    width: 180px;
+    position: absolute;
+    left: 180px;
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: justify;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5);
+    padding: 1rem 0 0;
+    z-index: 111;
+    overflow: hidden;
+    display: none;
+}
+
+.drop-down li:hover .drop-down-two {
+    display: flex;
+}
