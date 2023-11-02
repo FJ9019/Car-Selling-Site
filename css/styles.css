@@ -240,7 +240,9 @@ nav .navbar ul li .drop-down li:hover a {
 
 .drop-down li .drop-down-two,
 .drop-down li .drop-down-three,
-.drop-down li .drop-down-four {
+.drop-down li .drop-down-four,
+.drop-down li .drop-down-five,
+.drop-down li .drop-down-six {
     width: 180px;
     position: absolute;
     left: 180px;
@@ -260,6 +262,19 @@ nav .navbar ul li .drop-down li:hover a {
 
 .drop-down li:hover .drop-down-two,
 .drop-down li:hover .drop-down-three,
-.drop-down li:hover .drop-down-four {
+.drop-down li:hover .drop-down-four,
+.drop-down li:hover .drop-down-five,
+.drop-down li:hover .drop-down-six {
     display: flex;
+}
+
+.drop-down li .chev {
+    color: var(--text-color);
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+
+.drop-down li:hover .chev {
+    color: var(--main-color);
 }
