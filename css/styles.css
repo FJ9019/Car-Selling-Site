@@ -239,7 +239,8 @@ nav .navbar ul li .drop-down li:hover a {
 }
 
 .drop-down li .drop-down-two,
-.drop-down li .drop-down-three {
+.drop-down li .drop-down-three,
+.drop-down li .drop-down-four {
     width: 180px;
     position: absolute;
     left: 180px;
@@ -258,6 +259,7 @@ nav .navbar ul li .drop-down li:hover a {
 }
 
 .drop-down li:hover .drop-down-two,
-.drop-down li:hover .drop-down-three {
+.drop-down li:hover .drop-down-three,
+.drop-down li:hover .drop-down-four {
     display: flex;
 }
