@@ -294,3 +294,19 @@ nav .navbar ul li .drop-down li:hover a {
         gap: 0.5rem;
     }
 }
+
+@media (max-width: 1190px) {
+    nav .others .addBtn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    nav .navbar .navlink {
+        display: none;
+    }
+
+    nav .others i.cart {
+        display: none;
+    }
+}
