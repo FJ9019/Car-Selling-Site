@@ -278,3 +278,19 @@ nav .navbar ul li .drop-down li:hover a {
 .drop-down li:hover .chev {
     color: var(--main-color);
 }
+
+
+/*== Media Queries ==*/
+@media (max-width: 1370px) {
+    nav .navbar ul li {
+        padding: 2.5rem 0;
+    }
+
+    nav .others {
+        gap: 1rem;
+    }
+
+    nav .navbar .navlink {
+        gap: 0.5rem;
+    }
+}
