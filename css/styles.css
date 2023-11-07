@@ -303,10 +303,56 @@ nav .navbar ul li .drop-down li:hover a {
 
 @media (max-width: 991px) {
     nav .navbar .navlink {
+        display: block;
+        position: absolute;
+        top: 5.3rem;
+        width: 100%;
+        left: 0px;
+        background: #fff;
+        box-shadow: 0 0 5px rgba(190, 190, 190, 0.5),
+        0 0 10px rgba(190, 190, 190, 0.5);
+        padding-left: 30px;
+        transition: 0.5s ease-in-out;
         display: none;
+    }
+
+    nav .navbar .navlink.active {
+        display: block;
+    }
+
+    .header.sticky {
+        padding: 0.6rem 9.5%;
+    }
+
+    nav .navbar ul li {
+        padding: 1rem 0;
+    }
+
+    nav .navbar ul li .drop-down {
+        position: sticky;
+        display: none;
+    }
+
+    .drop-down li:hover .drop-down-two,
+    .drop-down li:hover .drop-down-three,
+    .drop-down li:hover .drop-down-four,
+    .drop-down li:hover .drop-down-five,
+    .drop-down li:hover .drop-down-six {
+        position: sticky;
+        margin-top: 0rem;
     }
 
     nav .others i.cart {
         display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .header .logo img {
+        width: 120px;
+    }
+
+    nav .navbar .navlink {
+        top: 4.6rem;
     }
 }
