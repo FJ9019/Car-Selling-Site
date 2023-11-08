@@ -273,10 +273,10 @@ nav .navbar ul li .drop-down li:hover a {
 }
 
 .drop-down li .chev {
-    color: var(--text-color);
     position: absolute;
     left: 150px;
     top: 5px;
+    color: var(--text-color);
 }
 
 .drop-down li:hover .chev {
@@ -477,5 +477,32 @@ nav .navbar ul li .drop-down li:hover a {
 .home .slide .col-2 img {
     width: 100%;
     height: 40rem;
+}
+
+.home .swiper [class^="swiper-button-"] {
+    color: #fff;
+    background: rgba(211, 13, 13, 0.5);
+    padding: 2.5rem;
+}
+
+.home .swiper [class^="swiper-button-"]:hover {
+    background: var(--main-color);
+}
+
+.home .swiper [class^="swiper-button-"]::before {
+    font-size: 2rem;
+}
+
+@media (max-width: 1150px) {
+    .home .slide {
+        height: auto;
+        padding: 5rem 10rem;
+        display: block;
+    }
+
+    .home .slide .col-2 img {
+        width: 100%;
+        height: 35rem;
+    }
 }
 
