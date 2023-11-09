@@ -736,3 +736,14 @@ section {
 .market .col-4 button:hover {
     background: var(--text-color);
 }
+
+/*-------------------------------*/
+@media (max-width: 1500px) {
+    .search .find {
+        max-width: 100%;
+    }
+
+    .search {
+        padding: 0 0;
+    }
+}
