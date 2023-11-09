@@ -782,3 +782,25 @@ section {
         font-size: 2.9rem;
     }
 }
+
+@media (max-width: 450px) {
+    .find .find-row {
+        grid-template-columns: 1fr;
+    }
+
+    .find .find-row select {
+        width: 100%;
+    }
+
+    .market .col-3 img.one {
+        height: 35rem;
+    }
+
+    .market {
+        padding-top: 80rem;
+    }
+
+    .market .col-4 h3 {
+        font-size: 2.4rem;
+    }
+}
