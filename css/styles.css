@@ -633,6 +633,7 @@ section {
 .market {
     padding-top: 35rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 4rem;
@@ -755,5 +756,29 @@ section {
 
     .market {
         padding-top: 40rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .find .find-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .market {
+        padding-top: 50rem;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 2.5rem 7rem;
+    }
+
+    .find .find-row {
+        gap: 0.5rem;
+    }
+
+    .market .col-4 h3 {
+        font-size: 2.9rem;
     }
 }
