@@ -737,7 +737,7 @@ section {
     background: var(--text-color);
 }
 
-/*-------------------------------*/
+
 @media (max-width: 1500px) {
     .search .find {
         max-width: 100%;
@@ -745,5 +745,15 @@ section {
 
     .search {
         padding: 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .find .find-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .market {
+        padding-top: 40rem;
     }
 }
