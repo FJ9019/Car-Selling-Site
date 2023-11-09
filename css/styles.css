@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;0,900&display=swap');
 
 
 * {
@@ -542,4 +543,41 @@ nav .navbar ul li .drop-down li:hover a {
     .home .slide .col-1 h1 {
         font-size: 2.2rem;
     }
+}
+
+
+/*== Perfect Section Start ==*/
+.search {
+    position: relative;
+    padding: 0 16rem;
+    background: #f7f2f2;
+}
+
+.search .find {
+    max-width: 1200px;
+    width: 100%;
+    padding: 2.5rem;
+    position: absolute;
+    top: -7rem;
+    z-index: 111;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(190,190,190,0.5),
+    0 0 10px rgba(190,190,190,0.5);
+    overflow: hidden;
+}
+
+.find .find-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+.find h3 {
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
 }
