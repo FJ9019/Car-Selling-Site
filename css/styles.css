@@ -1274,3 +1274,10 @@ section h1 span {
     color: var(--main-color);
     padding-right: 0.5rem;
 }
+
+
+@media (max-width: 1250px) {
+    .dealer .deal-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
