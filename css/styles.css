@@ -858,3 +858,9 @@ section {
         padding: 2rem 10rem;
     }
 }
+
+@media (max-width: 991px) {
+    .counter {
+        grid-template-columns: 1fr 1fr;
+    }
+}
