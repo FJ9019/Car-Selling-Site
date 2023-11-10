@@ -932,5 +932,76 @@ section {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
     transition: 0.5 ease;
+}
+
+.arr-row .arr-col .image:hover {
+    transform: scale(1.3);
+}
+
+.arr-row .arr-col h5 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    color: var(--text-color);
+}
+
+.arr-row .arr-col .rating {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.arr-col .rating .stars i {
+    color: var(--main-color);
+    font-size: 1.4rem;
+}
+
+.arr-col .rating .review span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #646161;
+}
+
+.arr-col .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.arr-col .features span {
+    font-size: 1.4rem;
+    color: #646161;
+}
+
+.arr-col .features span i {
+    color: var(--main-color);
+    padding-right: 0.3rem;
+}
+
+.arr-col .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arr-col .price p {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.arr-col .price button {
+    background: var(--main-color);
+    padding: 0.8rem 2.8rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.arr-col .price button:hover {
+    background: var(--text-color);
 }
