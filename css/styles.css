@@ -870,3 +870,67 @@ section {
         padding: 2rem 7rem;
     }
 }
+
+
+/*== Arrivals Section Start ==*/
+.arrivals {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.arrivals h4 {
+    color: var(--main-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.arrivals h4 i {
+    padding-right: 0.5rem;
+}
+
+.arrivals h1 {
+    padding-bottom: 4rem;
+    font-size: 4.7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.arrivals h1 span {
+    color: var(--main-color);
+}
+
+.arrivals .arr-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.arr-row .arr-col {
+    padding: 1rem;
+    box-shadow: 0 0 5px #646161;
+    background: #fff;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.arr-row .arr-col .image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.arr-row .arr-col .image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5 ease;
+}
