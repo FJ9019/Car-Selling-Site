@@ -1209,3 +1209,68 @@ section h1 span {
 }
 
 /*== Dealer Section ==*/
+.dealer {
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background: #fff;
+}
+
+.dealer .deal-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.deal-row .deal-col {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px #646161;
+    padding: 1rem;
+    border-radius: 12px;
+    position: relative;
+    text-align: justify;
+    transition: 0.5s ease;
+}
+
+.deal-row .deal-col:hover {
+    transform: translateY(-10px);
+}
+
+.deal-row .deal-col img {
+    background: #f7f2f2;
+    border-radius: 12px;
+}
+
+.deal-row .deal-col .image img {
+    width: 100%;
+    height: 14rem;
+    border-radius: 12px;
+}
+
+.deal-row .deal-col .list {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--main-color);
+    color: #fff;
+    padding: 0.7rem 1.4rem;
+    font-size: 1.3rem;
+    border-radius: 40px;
+}
+
+.deal-row .deal-col h5 {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.deal-row .deal-col p {
+    padding-bottom: 1rem;
+    color: #646161;
+    font-size: 1.3rem;
+}
+
+.deal-row .deal-col p i {
+    color: var(--main-color);
+    padding-right: 0.5rem;
+}
