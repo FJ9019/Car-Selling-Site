@@ -878,7 +878,7 @@ section {
     padding-top: 7rem;
 }
 
-.arrivals h4 {
+section h4 {
     color: var(--main-color);
     font-size: 2rem;
     text-transform: uppercase;
@@ -888,11 +888,11 @@ section {
     letter-spacing: 2px;
 }
 
-.arrivals h4 i {
-    padding-right: 0.5rem;
+.section h4 i {
+   padding-right: 0.5rem;
 }
 
-.arrivals h1 {
+section h1 {
     padding-bottom: 4rem;
     font-size: 4.7rem;
     text-transform: capitalize;
@@ -900,7 +900,7 @@ section {
     color: var(--text-color);
 }
 
-.arrivals h1 span {
+section h1 span {
     color: var(--main-color);
 }
 
@@ -1006,6 +1006,26 @@ section {
     background: var(--text-color);
 }
 
+.arrivals button.load {
+    margin-top: 4rem;
+    padding: 1.4rem;
+    background: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.arrivals button.load i {
+    padding-left: 0.5rem;
+}
+
+.arrivals button.load:hover {
+    background: var(--text-color);
+}
+
 
 @media (max-width: 1350px) {
     .arrivals .arr-row {
@@ -1022,7 +1042,13 @@ section {
         height: auto;
     }
 
-    .arrivals h1 {
+    section h1 {
         font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 450px) {
+    section h1 {
+        font-size: 2.4rem;
     }
 }
