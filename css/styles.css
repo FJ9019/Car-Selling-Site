@@ -847,3 +847,14 @@ section {
     font-size: 2rem;
     font-weight: 500;
 }
+
+.counter .container span.text i {
+    padding-right: 0.5rem;
+}
+
+
+@media (max-width: 1280px) {
+    .counter {
+        padding: 2rem 10rem;
+    }
+}
