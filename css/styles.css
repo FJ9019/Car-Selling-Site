@@ -1052,3 +1052,52 @@ section h1 span {
         font-size: 2.4rem;
     }
 }
+
+
+/*== Body Type Section ==*/
+.type {
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background: #fff;
+}
+
+.type .type-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.type-row .type-col {
+    width: 100%;
+    padding: 2rem;
+    background: #f7f2f2;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #646161;
+    transition: 0.4s ease;
+}
+
+.type-row .type-col:hover {
+    transform: translateY(-10px);
+}
+
+.type-row .type-col img {
+    width: 100%;
+    height: 12rem;
+}
+
+.type-row .type-col h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #646161;
+}
+
+.type-row .type-col:hover {
+    color: var(--main-color);
+}
+
+@media (max-width: 1350px) {
+    .type .type-row {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
