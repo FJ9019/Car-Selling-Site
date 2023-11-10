@@ -1012,3 +1012,17 @@ section {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .arrivals .arr-row {
+        grid-template-columns: 1fr;
+    }
+
+    .arr-row .arr-col .image {
+        height: auto;
+    }
+
+    .arrivals h1 {
+        font-size: 2.8rem;
+    }
+}
