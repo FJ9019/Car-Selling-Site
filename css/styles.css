@@ -1628,3 +1628,15 @@ section h1.motob::after {
     position: absolute;
     top: 2rem;
 }
+
+@media (max-width: 1200px) {
+    .download .app-row {
+        flex-direction: column;
+    }
+
+    .app-row .app-col img.down {
+        height: auto;
+        position: inherit;
+        margin-top: 2rem;
+    }
+}
