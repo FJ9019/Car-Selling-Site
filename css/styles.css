@@ -1815,3 +1815,29 @@ section h1.motob::after {
         padding:  1.3rem 17rem;
     }
 }
+
+@media (max-width: 1150px) {
+    .footer .footer-bottom .social {
+        position: inherit;
+        background: none;
+        padding: 1.3rem 0;
+    }
+
+    .footer .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer .footer-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer .footer-row {
+        padding: 2rem 10rem;
+    }
+
+    .footer .footer-bottom {
+        padding: 2rem 10rem;
+    }
+}
