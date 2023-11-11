@@ -1451,3 +1451,11 @@ section h1 span {
     font-weight: 600;
 }
 
+
+@media (max-width: 1300px) {
+    .brand .brand-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
