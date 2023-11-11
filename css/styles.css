@@ -1640,3 +1640,14 @@ section h1.motob::after {
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .app-row .app-col img.down {
+        width: 100%;
+        height: auto;
+    }
+
+    .app-row .app-col .button {
+        flex-direction: column;
+    }
+}
