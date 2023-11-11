@@ -1525,3 +1525,106 @@ section h1 span {
     color: var(--main-color);
     font-size: 1.4rem;
 }
+
+
+/*== Download Section ==*/
+section h1.motob {
+    font-size: 3.8rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+section h1.motob::before {
+    border: none;
+    background: transparent;
+}
+
+section h1.motob::after {
+    background: transparent;
+}
+
+.download {
+    background: #fff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.download .app-row {
+    background: #f7f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.download .app-row .app-col {
+    flex: 1 1 20rem;
+}
+
+.app-row .app-col p.text {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding-bottom: 2rem;
+}
+
+.app-row .app-col .button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.app-row .app-col .button a {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+}
+
+.app-row .app-col .button a img {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+
+.app-row .app-col .button a span {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.app-row .app-col .button a p {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.app-row .app-col .button a.google {
+    background: var(--main-color);
+    color: #fff;
+    transition: 0.4s;
+}
+
+.app-row .app-col .button a.apple {
+    background: #646161;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.app-row .app-col .button a:hover.google {
+    background: #646161;
+    color: #fff;
+}
+
+.app-row .app-col .button a:hover.apple {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.app-row .app-col img.down {
+    width: 50rem;
+    height: 35rem;
+    position: absolute;
+    top: 2rem;
+}
