@@ -1481,3 +1481,47 @@ section h1 span {
         font-size: 2.4rem;
     }
 } 
+
+
+/*== Client Section ==*/
+.client {
+    text-align: center;
+    padding-top: 7rem; 
+    padding-bottom: 5rem;
+}
+
+.client .slide {
+    background: #fff;
+    box-shadow: 0 0 2px #646161;
+    padding: 1rem;
+}
+
+.client .slide img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: var(--main-color);
+    padding: 1rem;
+}
+
+.client .slide h5 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    padding: 0.5rem;
+}
+
+.client .slide span {
+    color: var(--main-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.client .slide p {
+    color: var(--text-color);
+    padding: 1.4rem;
+}
+
+.client .slide i {
+    color: var(--main-color);
+    font-size: 1.4rem;
+}
