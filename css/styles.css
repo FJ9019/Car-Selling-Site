@@ -1847,3 +1847,17 @@ section h1.motob::after {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media (max-width: 600px) {
+    .footer .footer-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer .footer-row {
+        padding: 2rem 7rem;
+    }
+
+    .footer .footer-bottom {
+        padding: 2rem 7rem;
+    }
+} 
