@@ -1467,3 +1467,17 @@ section h1 span {
         font-size: 2.8rem;
     }
 }
+
+@media (max-width: 450px) {
+    .brand .brand-row {
+        grid-template-columns: 1fr;
+    }
+
+    .brand-row .brand-col img {
+        height: auto;
+    }
+
+    .brand h1 {
+        font-size: 2.4rem;
+    }
+} 
