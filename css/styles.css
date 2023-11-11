@@ -1809,3 +1809,9 @@ section h1.motob::after {
     transform: scale(1.1);
 }
 
+
+@media (max-width: 1390px) {
+    .footer .footer-bottom .social {
+        padding:  1.3rem 17rem;
+    }
+}
