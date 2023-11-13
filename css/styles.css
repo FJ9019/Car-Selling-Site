@@ -1906,3 +1906,26 @@ section h1.motob::after {
     font-size: 1.5rem;
     color: #fff;
 }
+
+
+/*== Show Arrivals Section ==*/
+.arrivals .arr-row.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.arrivals.show {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.arrivals.show .col-1 {
+    flex: 1 1 2rem;
+    width: 200px;
+}
+
+.arrivals.show .col-2 {
+    flex: 1 1 60rem;
+}
