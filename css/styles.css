@@ -2095,3 +2095,24 @@ section h1.motob::after {
     }
 }
 
+
+/*== Inventory List ==*/
+.arrivals .arr-row.row.inventory_list {
+    display: block;
+}
+
+.arrivals .arr-row.row.inventory_list .arr-col{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.arrivals .arr-row.row.inventory_list .arr-col .image {
+    flex: 1 1 15rem;
+    width: 100%;
+    height: 20rem;
+}
+
+.arrivals .arr-row.row.inventory_list .arr-col .list {
+    flex: 1 1 30rem;
+}
