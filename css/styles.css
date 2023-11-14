@@ -2116,3 +2116,18 @@ section h1.motob::after {
 .arrivals .arr-row.row.inventory_list .arr-col .list {
     flex: 1 1 30rem;
 }
+
+.arrivals .arr-row.row.inventory_list .arr-col .list .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.arrivals .arr-row.row.inventory_list .arr-col .list p.text {
+    font-size: 1.4rem;
+    color: #141622;
+    padding-bottom: 1rem;
+}
+
