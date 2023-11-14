@@ -2066,3 +2066,31 @@ section h1.motob::after {
 .arrivals.show .col-2 .number span.black:hover {
     background: var(--main-color);
 }
+
+
+@media (max-width: 991px) {
+    .arrivals .arr-row.row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .arrow-row .arr-col .image {
+        height: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .arrivals .arr-row.row {
+        grid-template-columns: 1fr;
+    }
+
+    .arrivals.show .col-1 {
+        flex: 1 1 2rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    section {
+        padding: 2.5rem 3rem;
+    }
+}
