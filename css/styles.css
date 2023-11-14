@@ -1997,3 +1997,72 @@ section h1.motob::after {
 .arrivals.show .col-2 .image {
     height: 16rem;
 }
+
+.arrivals.show .col-2 .head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #646161;
+    margin-bottom: 2rem;
+}
+
+.arrivals.show .col-2 .head span {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.arrivals.show .col-2 .head i {
+    font-size: 2rem;
+    margin-right: 0.3rem;
+    color: var(--text-color);
+}
+
+.arrivals.show .col-2 .head i.grid {
+    color: var(--main-color);
+    padding: 5px;
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+.arrivals.show .col-2 .head select {
+    border: 1px solid var(--main-color);
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+}
+
+.arrivals.show .col-2 .number {
+    margin-top: 4rem;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.arrivals.show .col-2 .number span {
+    background: var(--main-color);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.arrivals.show .col-2 .number span.black {
+    background: var(--text-color);
+    transition: 0.4s ease;
+}
+
+.arrivals.show .col-2 .number span.black:hover {
+    background: var(--main-color);
+}
