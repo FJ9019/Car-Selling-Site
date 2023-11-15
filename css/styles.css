@@ -2148,3 +2148,53 @@ section h1.motob::after {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+/*== Inventory Single ==*/
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 10rem;
+    background: #f7f2f2;
+}
+
+.slider .slider_one {
+    flex: 1 1 50rem;
+}
+
+.slider .slider_one .col-1 {
+    background-color: #fff;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 3px #646161;
+    margin-bottom: 1rem;
+}
+
+.slider_one h6 {
+    background: var(--main-color);
+    color: #fff;
+    width: 110px;
+    font-size: 1.4rem;
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.slider_one h5 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.slider_one .date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.slider .slider_two {
+    flex: 1 1 5rem;
+}
