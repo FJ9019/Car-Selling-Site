@@ -2325,3 +2325,126 @@ section h1.motob::after {
 .slider .slider_two {
     flex: 1 1 5rem;
 }
+
+.slider_two .col-2 {
+    background: #fff;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 3px #646161;
+    margin-bottom: 1rem;
+}
+
+.slider_two .col-2 h3 {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.slider_two .col-2 .location {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-area: 1rem;
+    font-size: 1.3rem;
+}
+
+.slider_two .col-2 .location i {
+    color: var(--main-color);
+    padding-right: 0.5rem;
+}
+
+.slider_two .col-2 .customer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.slider_two .col-2 .customer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.slider_two .col-2 .customer h6 {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.slider_two .col-2 .customer span {
+    display: block;
+    color: var(--main-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.slider_two .col-2 .customer i {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+.slider_two .col-2 .customer i:hover {
+    color: var(--main-color);
+}
+
+.slider_two .col-2 h6 {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding-bottom: 0.5rem;
+}
+
+.slider_two .col-2 input,
+.slider_two .col-2 textarea {
+    border: 1px solid #646161;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.slider_two .col-2 button {
+    margin-top: 2rem;
+    background: var(--main-color);
+    padding: 1rem 2.5rem;
+    color: #fff;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.slider_two .col-2 button i {
+    position: absolute;
+    top: 15px;
+}
+
+.slider_two .col-2 button:hover {
+    background: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .slider .swiper {
+        height: auto;
+    }
+
+    .slider {
+        display: inherit;
+    }
+
+    .slider .slider_one .col-1 .key-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    .slider .slider_one .col-1 .key-row {
+        grid-template-columns: 1fr;
+    }
+
+    .slider_one .col-1 .features {
+        grid-template-columns: 1fr;
+    }
+}
