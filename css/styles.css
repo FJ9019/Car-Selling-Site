@@ -2693,3 +2693,30 @@ section h1.motob::after {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
+
+.dash-row .side_two .side-row-one .col-1:nth-child(1) {
+    background: #e8e6f7;
+    box-shadow: 0 0 5px #e8e6f7;
+}
+
+.dash-row .side_two .side-row-one .col-1:nth-child(1) p {
+    color: #6259ca;
+}
+
+.dash-row .side_two .side-row-one .col-1:nth-child(2) {
+    background: #dbf7f7;
+    box-shadow: 0 0 5px #dbf7f7;
+}
+
+.dash-row .side_two .side-row-one .col-1:nth-child(2) p {
+    color: #29bf6c;
+}
+
+.dash-row .side_two .side-row-one .col-1:nth-child(3) {
+    background: #fddddf;
+    box-shadow: 0 0 5px #fddddf;
+}
+
+.dash-row .side_two .side-row-one .col-1:nth-child(3) p {
+    color: #ef1d26;
+}
