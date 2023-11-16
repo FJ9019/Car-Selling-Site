@@ -2572,3 +2572,124 @@ section h1.motob::after {
         height: 30rem;
     }
 }
+
+
+/*== User Dashboard Section Start ==*/
+.dashboard .dash-row {
+    display: flex;
+    gap: 3.5rem;
+    padding: 5.5rem 0;
+}
+
+.dash-row .side_one {
+    flex-basis: 330px;
+    background: #fff;
+    box-shadow: 0 0 5px #d8d3d3;
+    padding: 2.6rem;
+    text-align: center;
+}
+
+.dash-row .side_one .profile {
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.8rem;
+    border-bottom: 1px solid #646161;
+    position: relative;
+}
+
+.dash-row .side_one .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.dash-row .side_one .profile h6 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.dash-row .side_one .profile span {
+    color: #646161;
+    font-size: 1.5rem;
+}
+
+.dash-row .side_one .profile i {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-67%, -50%);
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 50%;
+}
+
+.dash-row .side_one .box {
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    text-align: left;
+    border-color: transparent;
+    border-radius: 8px;
+    transition: 0.4s ease;
+}
+
+.dash-row .side_one .box a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.dash-row .side_one .box a i {
+    padding-right: 5px;
+    color: var(--main-color);
+}
+
+.dash-row .side_one .box.activated,
+.dash-row .side_one .box.activated a,
+.dash-row .side_one .box.activated a i {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.dash-row .side_one .box:hover {
+    padding-left: 1.5rem;
+}
+
+.dash-row .side_two {
+    flex: 1 1 45rem;
+}
+
+.dash-row .side_two .side-row-one {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.dash-row .side_two .side-row-one .col-1 {
+    flex-basis: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.dash-row .side_two .side-row-one .col-1 img {
+    width: 70px;
+    height: 70px;
+}
+
+.dash-row .side_two .side-row-one .col-1 p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dash-row .side_two .side-row-one .col-1 p span {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
