@@ -116,7 +116,7 @@ html {
     background: #fff;
     box-shadow: 0 0 5px rgba(190, 190, 190, 0.5), 
     0 0 10px rgba(190, 190, 190, 0.5);
-    z-index: 111;
+    z-index: 1000;
     transition: 0.4s ease;
 }
 
@@ -637,6 +637,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 4rem;
+    z-index: 10;
 }
 
 .market .col-3 {
@@ -1662,6 +1663,7 @@ section h1.motob::after {
 /*== Footer Section ==*/
 .footer {
     background: var(--text-color);
+    position: relative;
 }
 
 .footer .footer-row {
@@ -2446,5 +2448,41 @@ section h1.motob::after {
 
     .slider_one .col-1 .features {
         grid-template-columns: 1fr;
+    }
+}
+
+/*== Scroll Top Button Adding ==*/
+.scrollBtn {
+    position: absolute;
+    right: 5rem;
+    bottom: 1rem;
+    z-index: 100;
+    font-size: 3rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+    box-shadow: 0 0 5px var(--main-color);
+    border: 1px solid #fff;
+}
+
+.scrollBtn:hover {
+    background: var(--text-color);
+}
+
+
+@media (max-width: 1150px) {
+    .scrollBtn {
+        right: 5rem;
+        bottom: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .scrollBtn {
+        right: 1rem;
+        bottom: 3rem;
     }
 }
