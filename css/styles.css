@@ -2832,3 +2832,81 @@ section h1.motob::after {
         width: 350px;
     }
 }
+
+
+/*== My Profile Section ==*/
+.dash-row .side_two .row-one {
+    display: flex;
+    gap: 2rem;
+}
+
+.dash-row .side_two .row-one .side-col_one {
+    flex-basis: 550px;
+    background: #fff;
+    padding: 2.5rem;
+    box-shadow: 0 0 5px #d8d3d3;
+}
+
+.dash-row .side_two .row-one .side-col_one h5 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    border-bottom: 1px solid #646161;
+}
+
+.dash-row .side_two .row-one .side-col_one .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.dash-row .side_two .row-one .side-col_one .box .inputBox,
+.dash-row .side_two .row-one .side-col_one .inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.dash-row .side_two .row-one .side-col_one .box .inputBox label,
+.dash-row .side_two .row-one .side-col_one .inputBox label {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.dash-row .side_two .row-one .side-col_one .box .inputBox input,
+.dash-row .side_two .row-one .side-col_one .inputBox  input {
+    border: 1px solid #d8d3d3;
+    padding: 1.2rem;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.dash-row .side_two .row-one .side-col_one .box .inputBox input {
+    margin-bottom: 2rem;
+}
+
+.dash-row .side_two .row-one .side-col_one a {
+    background: var(--main-color);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.dash-row .side_two .row-one .side-col_one a:hover {
+    background: var(--text-color);
+}
+
+.dash-row .side_two .row-one .side-col_two {
+    flex-basis: 250px;
+    background: #fff;
+    padding: 2.5rem;
+    box-shadow: 0 0 5px #d8d3d3;
+}
