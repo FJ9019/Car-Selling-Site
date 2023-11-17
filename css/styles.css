@@ -2799,3 +2799,36 @@ section h1.motob::after {
     padding-left: 1rem;
     color: #29bf6c;
 }
+
+
+@media (max-width: 991px) {
+    .dash-row .side_one {
+        flex-basis: 100%;
+    }
+
+    .dashboard .dash-row {
+        flex-wrap: wrap;
+    }
+
+    .dash-row .side_two .side-row-two .tb-row .tb-col {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    .dash-row .side_two .side-row-two {
+        width: 500px;
+    }
+}
+
+@media (max-width: 650px) {
+    .dash-row .side_two .side-row-two {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .dash-row .side_two .side-row-two {
+        width: 350px;
+    }
+}
