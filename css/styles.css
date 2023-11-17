@@ -3027,3 +3027,28 @@ section h1.motob::after {
         grid-template-columns: 1fr;
     }
 }
+
+
+/*== My Listing Section ==*/
+.dash-row .side_two .side-row-two .table .icon {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.dash-row .side_two .side-row-two .table .icon i {
+    font-size: 1.7rem;
+}
+
+.dash-row .side_two .side-row-two .table .icon i:nth-child(1),
+.dash-row .side_two .side-row-two .table .icon i :nth-child(2) {
+    border: 1px solid #646161;
+    height: 20px;
+    color: #646161;
+}
+
+.dash-row .side_two .side-row-two .table .icon i:nth-child(3) {
+    border: 1px solid var(--main-color);
+    height: 20px;
+    color: var(--main-color);
+}
