@@ -3263,3 +3263,34 @@ section h1.motob::after {
 .dash-row .side_two .button a:hover {
     background: var(--text-color);
 }
+
+@media (max-width: 768px) {
+    .dash-row .side_two .list-row .box {
+        flex-wrap: wrap;
+    }
+
+    .dash-row .side_two .list-row .box .inputBox {
+        flex-basis: 100%;
+    }
+
+    .dash-row .side_two .list-row .box .inputBox input,
+    .dash-row .side_two .list-row .box .inputBox select {
+        width: 100%;
+    }
+
+    .dash-row .side_two .location {
+        flex-wrap: wrap;
+    }
+
+    .dash-row .side_two .location .box {
+        flex-basis: 100%;
+    }
+
+    .dash-row .side_two .info .box {
+        flex-wrap: wrap;
+    }
+
+    .dash-row .side_two .info .box .inputBox {
+        flex-basis: 100%;
+    }
+}
